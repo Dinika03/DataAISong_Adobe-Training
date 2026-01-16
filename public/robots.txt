@@ -1,7 +1,0 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
-User-agent: *
-Allow: /
-
-Sitemap: https://mobillio-online-store-qj6u1g.teleporthq.app/sitemap.xml
