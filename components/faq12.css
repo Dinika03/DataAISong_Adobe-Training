@@ -1,0 +1,331 @@
+.faq12-thq-faq8-elm {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.faq12-thq-max-width-elm {
+  gap: var(--dl-layout-space-threeunits);
+  align-self: center;
+  align-items: flex-start;
+}
+ 
+.faq12-thq-section-title-elm {
+  gap: var(--dl-layout-space-twounits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.faq12-thq-content-elm {
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.faq12-thq-list-elm {
+  flex: 1;
+  width: 100%;
+}
+ 
+.faq12-thq-faq1-elm {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+}
+ 
+.faq12-thq-trigger-elm1 {
+  display: flex;
+  padding: var(--dl-layout-space-unit);
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ 
+.faq12-thq-faq1-question-elm {
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+ 
+.faq12-thq-icons-container-elm1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ 
+.faq12-icon10 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.faq12-icon12 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.faq12-container12 {
+  display: flex;
+  padding: var(--dl-layout-space-unit);
+  align-self: stretch;
+  align-items: flex-start;
+  animation-name: fadeIn;
+  flex-direction: row;
+  animation-delay: 0s;
+  justify-content: space-between;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.faq12-thq-faq2-elm {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+}
+ 
+.faq12-thq-trigger-elm2 {
+  display: flex;
+  padding: var(--dl-layout-space-unit);
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ 
+.faq12-thq-faq2-question-elm1 {
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+ 
+.faq12-thq-icons-container-elm2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ 
+.faq12-icon14 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.faq12-icon16 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.faq12-container15 {
+  display: flex;
+  padding: var(--dl-layout-space-unit);
+  align-self: stretch;
+  align-items: flex-start;
+  animation-name: fadeIn;
+  flex-direction: row;
+  animation-delay: 0s;
+  justify-content: space-between;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.faq12-thq-faq3-elm {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+}
+ 
+.faq12-thq-trigger-elm3 {
+  display: flex;
+  padding: var(--dl-layout-space-unit);
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ 
+.faq12-thq-faq2-question-elm2 {
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+ 
+.faq12-thq-icons-container-elm3 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ 
+.faq12-icon18 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.faq12-icon20 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.faq12-container18 {
+  display: flex;
+  padding: var(--dl-layout-space-unit);
+  align-self: stretch;
+  align-items: flex-start;
+  animation-name: fadeIn;
+  flex-direction: row;
+  animation-delay: 0s;
+  justify-content: space-between;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.faq12-thq-faq4-elm {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+}
+ 
+.faq12-thq-trigger-elm4 {
+  display: flex;
+  padding: var(--dl-layout-space-unit);
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ 
+.faq12-thq-faq2-question-elm3 {
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+ 
+.faq12-thq-icons-container-elm4 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ 
+.faq12-icon22 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.faq12-icon24 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.faq12-container21 {
+  display: flex;
+  padding: var(--dl-layout-space-unit);
+  align-self: stretch;
+  align-items: flex-start;
+  animation-name: fadeIn;
+  flex-direction: row;
+  animation-delay: 0s;
+  justify-content: space-between;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.faq12-fragment1 {
+  display: contents;
+}
+ 
+.faq12-text13 {
+  display: inline-block;
+}
+ 
+.faq12-fragment2 {
+  display: contents;
+}
+ 
+.faq12-text14 {
+  display: inline-block;
+}
+ 
+.faq12-fragment3 {
+  display: contents;
+}
+ 
+.faq12-text15 {
+  display: inline-block;
+}
+ 
+.faq12-fragment4 {
+  display: contents;
+}
+ 
+.faq12-text16 {
+  display: inline-block;
+}
+ 
+.faq12-fragment5 {
+  display: contents;
+}
+ 
+.faq12-text17 {
+  display: inline-block;
+}
+ 
+.faq12-fragment6 {
+  display: contents;
+}
+ 
+.faq12-text18 {
+  display: inline-block;
+}
+ 
+.faq12-fragment7 {
+  display: contents;
+}
+ 
+.faq12-text19 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .faq12-thq-max-width-elm {
+    flex-direction: column;
+  }
+  .faq12-thq-list-elm {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .faq12-thq-max-width-elm {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+}
