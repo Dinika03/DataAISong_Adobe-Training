@@ -1,0 +1,6 @@
+{
+  "imsOrgId": "YOUR_ORG_ID@AdobeOrg",
+  "sandbox": "prod",
+  "apiKey": "YOUR_API_KEY",
+  "accessToken": "YOUR_ACCESS_TOKEN"
+}

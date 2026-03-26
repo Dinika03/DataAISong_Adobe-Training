@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AEP SQL Query Builder</title>
+  <link rel="stylesheet" href="css/aep-query-builder.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="app-header">
+    <div class="header-inner">
+      <h1 class="app-title">AEP SQL Query Builder</h1>
+      <div class="header-actions">
+        <span class="connection-status" id="connectionStatus" title="Not connected">
+          <span class="status-dot offline"></span>
+          <span class="status-text">Offline</span>
+        </span>
+        <button class="settings-btn" id="settingsBtn" title="API Settings">&#9881;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Settings Modal -->
+  <div class="modal-overlay" id="settingsModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>AEP API Settings</h2>
+        <button class="modal-close" id="settingsClose">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="settings-note">Edit <code>aep-config.json</code> in the project root to update credentials.</p>
+        <div class="config-display" id="configDisplay">
+          <div class="config-row"><span class="config-label">IMS Org ID:</span> <span id="cfgOrg">&mdash;</span></div>
+          <div class="config-row"><span class="config-label">Sandbox:</span> <span id="cfgSandbox">&mdash;</span></div>
+          <div class="config-row"><span class="config-label">API Key:</span> <span id="cfgApiKey">&mdash;</span></div>
+          <div class="config-row"><span class="config-label">Access Token:</span> <span id="cfgToken">&mdash;</span></div>
+        </div>
+        <div class="settings-actions">
+          <button class="btn btn-primary" id="testConnectionBtn">Test Connection</button>
+          <button class="btn btn-secondary" id="refreshDatasetsBtn">Refresh Datasets</button>
+        </div>
+        <div class="test-result" id="testResult"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Layout -->
+  <div class="app-layout">
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar"></nav>
+
+    <!-- Content -->
+    <div class="content">
+      <div class="form-area" id="formArea"></div>
+
+      <!-- SQL Output Panel -->
+      <div class="output-panel">
+        <div class="output-header">
+          <h3>Generated SQL</h3>
+          <div class="output-actions">
+            <button class="btn btn-sm" id="copyBtn" title="Copy to Clipboard">Copy</button>
+            <button class="btn btn-sm btn-secondary" id="resetBtn" title="Reset Form">Reset</button>
+          </div>
+        </div>
+        <pre class="sql-output" id="sqlOutput"><code id="sqlCode">-- Select a query type to begin</code></pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copy Toast -->
+  <div class="copy-toast" id="copyToast">Copied to clipboard!</div>
+
+  <!-- Scripts -->
+  <script src="js/aep-query-builder.js"></script>
+  <script src="js/aep-api.js"></script>
+  <script src="js/aep-generators/select.js"></script>
+  <script src="js/aep-generators/ctas.js"></script>
+  <script src="js/aep-generators/insert-into.js"></script>
+  <script src="js/aep-generators/alter-table.js"></script>
+  <script src="js/aep-generators/views.js"></script>
+  <script src="js/aep-generators/copy-export.js"></script>
+  <script src="js/aep-generators/transactions.js"></script>
+  <script src="js/aep-generators/explain.js"></script>
+  <script src="js/aep-generators/cursors.js"></script>
+  <script src="js/aep-generators/anonymous-blocks.js"></script>
+</body>
+</html>
